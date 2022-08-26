@@ -47,3 +47,6 @@ multi_recipe_schema = RecipeSchema(many=True)
 
 user_schema = UserSchema()
 
+if __name__ =="__main__":
+    app.run(debug=True)
+
